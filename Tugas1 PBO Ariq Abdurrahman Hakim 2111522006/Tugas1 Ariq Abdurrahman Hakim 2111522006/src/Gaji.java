@@ -6,7 +6,7 @@ public class Gaji extends Pegawai {
         super(name, address, number);
         setSalary(salary);
     }
-
+    //Overriding
     public void mailCheck() {
         System.out.println("Memeriksa Kelas Gaji dalam Surat ");
         System.out.println("Surat Tertuju Untuk " + getName() + "dengan gaji " + salary);
