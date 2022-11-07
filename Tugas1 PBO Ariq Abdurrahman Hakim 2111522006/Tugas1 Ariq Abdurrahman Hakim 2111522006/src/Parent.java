@@ -2,7 +2,7 @@ class Parent {
     int x = 5;
 
     public void Info() {
-        System.out.println("Ini class Parent");
+        System.out.println("Ini Class Parent");
     }
 }
 
@@ -10,7 +10,7 @@ class Child extends Parent {
     int x = 10;
 
     public void Info() {
-        System.out.println("Ini class Child ");
+        System.out.println("Ini Class Child ");
     }
 }
 
